@@ -1,0 +1,129 @@
+.background {
+  background-color: #1c1a19;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+
+.content > * {
+  flex: 1 1 auto;
+}
+
+.toolbar {
+  height: 48px;
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0% 0%;
+}
+
+.spaceBetween {
+  flex: 2 1 auto;
+}
+
+.menuIcon {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.menubar {
+  background-color: #fff;
+  border: 1px solid #fff;
+  width: 16px;
+  top: 17px;
+  left: 4px;
+  margin: 1px;
+}
+
+.headline {
+  display: flex;
+  background-image: url(Art/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.headline > * {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 0%;
+  margin-bottom: 15px;
+}
+
+.greeting {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.occupation {
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.aboutme {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.socialmedia {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 15px;
+  gap: 0%;
+}
+
+.socialmedia > * {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-left: 0%;
+  margin-right: 12px;
+}
