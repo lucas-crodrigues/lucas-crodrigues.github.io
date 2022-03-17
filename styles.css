@@ -5,6 +5,7 @@
 .content {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 .content > * {
     flex: 1 1 auto;
