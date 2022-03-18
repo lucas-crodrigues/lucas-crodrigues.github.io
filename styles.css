@@ -131,15 +131,21 @@
 .works {
   background-color: #e5e5e5;
   display: grid;
+  grid-template-columns: 24px auto 24px;
   text-align: center;
   gap: 0% 0%;
 }
 
-.works > * {
+.works > *{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* .works > * {
   width: 327px;
   margin-left: 24px;
   margin-right: 24px;
-}
+} */
 
 .worksh {
   font-family: 'Crete Round';
@@ -152,7 +158,6 @@
 }
 
 .divline {
-  width: 327px;
   height: 0px;
   left: 0px;
   top: 107px;
@@ -167,7 +172,7 @@
 }
 
 .stories > * {
-  width: 327px;
+  width: 100%;
 }
 
 .multiposth {
