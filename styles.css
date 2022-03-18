@@ -141,12 +141,6 @@
   grid-column-end: 3;
 }
 
-/* .works > * {
-  width: 327px;
-  margin-left: 24px;
-  margin-right: 24px;
-} */
-
 .worksh {
   font-family: 'Crete Round';
   font-style: normal;
@@ -219,3 +213,33 @@
   color: #091e42;
   margin: 0%;
 }
+
+.seeproject {
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.seeprojecth {
+  margin: 0%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  padding-left: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
