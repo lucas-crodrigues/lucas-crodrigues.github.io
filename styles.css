@@ -420,31 +420,20 @@ li {
   margin-top: 135px;
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
   align-content: center;
 }
 
 .languagetitle {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  text-align: center;
+  list-style-image: url(Art/language.png);
 }
 
 .languagepoint {
-  width: 18px;
-  height: 18px;
-  left: 12px;
-  top: 20.73px;
-  background: #ff6b00;
-  transform: rotate(-45deg);
+  list-style-image: url(Art/language.png);
 }
 
 .languageh {
-  width: 164px;
-  height: 24px;
-  left: 49.46px;
-  top: 8.73px;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -453,14 +442,15 @@ li {
   color: #fff;
   margin: 0%;
   text-align: center;
-  padding-bottom: 12px;
+  padding-bottom: 0%;
+  padding-left: 12px;
+}
+
+.languagetext {
+  margin-top: 0%;
 }
 
 .languagetext > * {
-  width: 114px;
-  height: 24px;
-  left: 0%;
-  top: 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -480,26 +470,14 @@ li {
 }
 
 .frameworkstitle {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 12px;
+  list-style-image: url(Art/frameworks.png);
 }
 
 .frameworkspoint {
-  width: 18px;
-  height: 18px;
-  left: 12px;
-  top: 11px;
-  background: #ff6b00;
+  list-style-image: url(Art/frameworks.png);
 }
 
 .frameworksh {
-  width: 227px;
-  height: 24px;
-  left: 42px;
-  top: 8px;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -508,7 +486,12 @@ li {
   color: #fff;
   margin: 0%;
   text-align: center;
-  padding-bottom: 12px;
+  padding-bottom: 0%;
+  padding-left: 24px;
+}
+
+.frameworkstext {
+  margin-top: 0%;
 }
 
 .frameworkstext > * {
@@ -536,27 +519,14 @@ li {
 }
 
 .skillstitle {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 12px;
+  list-style-image: url(Art/skills.png);
 }
 
 .skillspoint {
-  width: 18px;
-  height: 18px;
-  left: 12px;
-  top: 11px;
-  background: #ff6b00;
-  border-radius: 150px;
+  list-style-image: url(Art/skills.png);
 }
 
 .skillsh {
-  width: 115px;
-  height: 24px;
-  left: 42px;
-  top: 8px;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -565,7 +535,12 @@ li {
   color: #fff;
   margin: 0%;
   text-align: center;
-  padding-bottom: 12px;
+  padding-bottom: 0%;
+  padding-left: 12px;
+}
+
+.skillstext {
+  margin-top: 0%;
 }
 
 .skillstext > * {
