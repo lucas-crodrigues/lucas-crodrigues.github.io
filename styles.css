@@ -425,6 +425,8 @@ li {
 .languagetitle {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
 }
 
 .languagepoint {
@@ -448,4 +450,132 @@ li {
   line-height: 44px;
   color: #fff;
   margin: 0%;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.languagetext > * {
+  width: 114px;
+  height: 24px;
+  left: 0px;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.frameworks {
+  margin-top: 44px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  height: auto;
+}
+
+.frameworkstitle {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.frameworkspoint {
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  top: 11px;
+  background: #ff6b00;
+}
+
+.frameworksh {
+  width: 227px;
+  height: 24px;
+  left: 42px;
+  top: 8px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin: 0%;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.frameworkstext > * {
+  width: 100%;
+  height: 24px;
+  left: 0px;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.skills {
+  margin-top: 44px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  margin-bottom: 130px;
+}
+
+.skillstitle {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.skillspoint {
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  top: 11px;
+  background: #ff6b00;
+  border-radius: 150px;
+}
+
+.skillsh {
+  width: 115px;
+  height: 24px;
+  left: 42px;
+  top: 8px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin: 0%;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.skillstext > * {
+  width: 100%;
+  height: 24px;
+  left: 0px;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-top: 32px;
 }
