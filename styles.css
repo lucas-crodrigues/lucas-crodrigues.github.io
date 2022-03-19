@@ -218,7 +218,6 @@
 .seeproject {
   width: 124px;
   height: 48px;
-  background: #ff6b00;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -238,6 +237,7 @@
 
 ul {
   list-style: none;
+  padding: 0%;
 }
 
 li {
@@ -315,7 +315,6 @@ li {
 .seeproject1 {
   width: 100%;
   height: 48px;
-  background: #ff6b00;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -332,7 +331,7 @@ li {
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  padding-left: 35%;
+  padding-left: 0%;
 }
 
 .aboutme {
@@ -360,6 +359,7 @@ li {
   left: 24px;
   top: 120px;
   margin: 0%;
+  text-align: left;
 }
 
 .aboutmep {
@@ -702,4 +702,29 @@ input[type=submit] {
   align-self: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.seeproject1button {
+  margin: 0%;
+  padding: 0%;
 }
