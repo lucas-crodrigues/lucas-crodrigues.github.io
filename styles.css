@@ -445,7 +445,7 @@ li {
   height: 24px;
   left: 49.46px;
   top: 8.73px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -500,7 +500,7 @@ li {
   height: 24px;
   left: 42px;
   top: 8px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -557,7 +557,7 @@ li {
   height: 24px;
   left: 42px;
   top: 8px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
