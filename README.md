@@ -1,5 +1,5 @@
-# Portfolio Microverse
- Portfolio project started at the first week of Microverse
+# Review Portfolio Microverse
+ Review of Portfolio project started at the first week of Microverse, folowing review guidelines provided by Microverse
 
 Built With
 HTML and CSS
