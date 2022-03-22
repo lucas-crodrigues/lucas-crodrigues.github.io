@@ -707,7 +707,8 @@ button:active {
 input[type=text], [type=email] {
   width: 90%;
   padding: 12px 20px;
-  border: 1px  #d8d8d7;
+  border:none;
+  border-bottom: 1px solid #d8d8d7;
   background-color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -715,6 +716,8 @@ input[type=text], [type=email] {
   font-size: 15px;
   line-height: 24px;
   color: #979493;
+
+  
 }
 
 textarea {
