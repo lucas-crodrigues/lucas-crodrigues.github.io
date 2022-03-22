@@ -705,7 +705,7 @@ button:active {
 }
 
 input[type=text], [type=email] {
-  width: 90%;
+  width: 85%;
   padding: 12px 20px;
   border:none;
   border-bottom: 1px solid #d8d8d7;
@@ -719,6 +719,8 @@ input[type=text], [type=email] {
 
   
 }
+
+
 
 textarea {
   width: 90%;
