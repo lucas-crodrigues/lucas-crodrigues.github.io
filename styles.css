@@ -660,10 +660,11 @@ button:active {
   padding: 0%;
 }
 
-input[type=text], [type=email] {
+input[type=text],
+[type=email] {
   width: 85%;
   padding: 12px 20px;
-  border:none;
+  border: none;
   border-bottom: 1px solid #d8d8d7;
   background-color: #fff;
   font-family: 'Inter', sans-serif;
