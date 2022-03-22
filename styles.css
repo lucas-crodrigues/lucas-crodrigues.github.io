@@ -584,7 +584,7 @@ li {
   color: #172b4d;
 }
 
-input[type=text] {
+/* input[type=text] {
   width: 80%;
   padding: 12px 20px;
   border: 1px #d8d8d7;
@@ -595,7 +595,7 @@ input[type=text] {
   font-size: 15px;
   line-height: 24px;
   color: #979493;
-}
+} */
 
 .divlineform {
   height: 0%;
@@ -605,7 +605,7 @@ input[type=text] {
   width: calc(100% - 24px);
 }
 
-textarea {
+/* textarea {
   width: 90%;
   height: 114px;
   padding: 12px;
@@ -618,9 +618,9 @@ textarea {
   line-height: 24px;
   color: #3c3a39;
   margin-top: 24px;
-}
+} */
 
-input[type=submit] {
+/* input[type=submit] {
   width: 131px;
   height: 48px;
   left: 98px;
@@ -634,7 +634,7 @@ input[type=submit] {
   color: #fff;
   border: 1px solid #fff;
   margin-top: 18px;
-}
+} */
 
 .divline3 {
   grid-column-start: 1;
@@ -702,4 +702,48 @@ button:active {
 .seeproject1button {
   margin: 0%;
   padding: 0%;
+}
+
+input[type=text], [type=email] {
+  width: 90%;
+  padding: 12px 20px;
+  border: 1px  #d8d8d7;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+textarea {
+  width: 90%;
+  height: 114px;
+  padding: 12px;
+  border: 1px #d8d8d7;
+  background-color: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  margin-top: 24px;
+}
+
+button[type=submit] {
+  width: 131px;
+  height: 48px;
+  left: 98px;
+  top: calc(50% - 48px / 2 + 141px);
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 18px;
 }
