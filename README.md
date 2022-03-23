@@ -1,5 +1,5 @@
-# Review Portfolio Microverse
- Review of Portfolio project started at the first week of Microverse, folowing review guidelines provided by Microverse
+# Portfolio Microverse
+ Portfolio project started at the first week of Microverse
 
 Built With
 HTML and CSS
@@ -9,17 +9,26 @@ Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-Download files
-Run index.html in browser
+  1- Download files
+  2- Run index.html in browser
 
 
-👤 Lucas Costa Rodrigues
+👤 **Lucas Costa Rodrigues**
 
 GitHub: @lucas-crodrigues
 
 Twitter: @lcrodrigues58
 
 LinkedIn: https://www.linkedin.com/in/lucascostarodrigues/
+
+👤 **Francis Wayungi**
+
+GitHub: [@githubhandle](https://github.com/wayungi)
+
+Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
+
+LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
+
 
 Show your support
 Give a ⭐️ if you like this project!

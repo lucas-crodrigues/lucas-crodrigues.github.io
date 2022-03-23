@@ -559,16 +559,12 @@ li {
 
 .contactme {
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 24px auto 24px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   text-align: center;
   gap: 0% 0%;
-  padding-top: 120px;
-}
-
-.contactme > * {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  padding: 120px 24px 0 24px;
 }
 
 .contactmeh {
@@ -715,4 +711,10 @@ button[type=submit]:hover {
 button[type=submit]:active {
   background-color: #e05304;
   color: #f4f1f0;
+}
+
+form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
