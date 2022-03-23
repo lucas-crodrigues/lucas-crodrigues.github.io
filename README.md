@@ -5,7 +5,7 @@ Built With
 HTML and CSS
 Visual Studio Code
 
-Getting Started
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
@@ -23,11 +23,11 @@ LinkedIn: https://www.linkedin.com/in/lucascostarodrigues/
 
 👤 **Francis Wayungi**
 
-GitHub: [@githubhandle](https://github.com/wayungi)
+GitHub: @wayungi
 
-Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
+Twitter: @FrancisWayungi
 
-LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
+LinkedIn: https://linkedin.com/in/francis-wayungi-3aa626231
 
 
 Show your support
