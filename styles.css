@@ -705,3 +705,14 @@ button[type=submit] {
   border: 1px solid #fff;
   margin-top: 18px;
 }
+
+button[type=submit]:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button[type=submit]:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
