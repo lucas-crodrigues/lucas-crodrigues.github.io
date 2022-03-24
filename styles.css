@@ -718,3 +718,41 @@ form {
   flex-flow: column wrap;
   align-items: center;
 }
+
+@media (min-width: 786px) {
+
+.headline {
+  background-image: url(Art/Illustration-header-desktop.png);
+  background-position: top right;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 10% auto 40%;
+  align-content: center;
+}
+
+.headlineh,
+.headlineh2,
+.headlinep {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: left;
+}
+
+.headlineh {
+
+}
+
+.socialmedia {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 36px;
+  margin: 0%;
+}
+
+.socialmedia > * {
+  padding-bottom: 23px;
+}
+
+}
