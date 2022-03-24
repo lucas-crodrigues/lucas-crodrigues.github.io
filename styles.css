@@ -559,16 +559,12 @@ li {
 
 .contactme {
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 24px auto 24px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   text-align: center;
   gap: 0% 0%;
-  padding-top: 120px;
-}
-
-.contactme > * {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  padding: 120px 24px 0 24px;
 }
 
 .contactmeh {
@@ -584,56 +580,12 @@ li {
   color: #172b4d;
 }
 
-input[type=text] {
-  width: 80%;
-  padding: 12px 20px;
-  border: 1px #d8d8d7;
-  background-color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #979493;
-}
-
 .divlineform {
   height: 0%;
   left: 0%;
   top: 107px;
   border-bottom: 1px solid #dbd8d7;
   width: calc(100% - 24px);
-}
-
-textarea {
-  width: 90%;
-  height: 114px;
-  padding: 12px;
-  border: 1px #d8d8d7;
-  background-color: #fbf8f7;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #3c3a39;
-  margin-top: 24px;
-}
-
-input[type=submit] {
-  width: 131px;
-  height: 48px;
-  left: 98px;
-  top: calc(50% - 48px / 2 + 141px);
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  border: 1px solid #fff;
-  margin-top: 18px;
 }
 
 .divline3 {
@@ -702,4 +654,67 @@ button:active {
 .seeproject1button {
   margin: 0%;
   padding: 0%;
+}
+
+input[type=text],
+[type=email] {
+  width: 85%;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 1px solid #d8d8d7;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+textarea {
+  width: 90%;
+  height: 114px;
+  padding: 12px;
+  border: 1px #d8d8d7;
+  background-color: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  margin-top: 24px;
+}
+
+button[type=submit] {
+  width: 131px;
+  height: 48px;
+  left: 98px;
+  top: calc(50% - 48px / 2 + 141px);
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 18px;
+}
+
+button[type=submit]:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button[type=submit]:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
