@@ -735,7 +735,6 @@ form {
 }
 
 @media (min-width: 786px) {
-
   .content {
     display: grid;
     grid-template-columns: 10% auto 10%;
@@ -896,6 +895,17 @@ form {
     display: none;
   }
 
+  .aboutme1 > * {
+    padding: 0%;
+  }
+
+  .technologies > * {
+    margin: 0%;
+    margin-top: 10%;
+    padding-right: 10%;
+    text-align: left;
+  }
+
   .project1:hover {
     background-image: url(Art/project-image-selected.png);
     background-size: 100% 100%;
@@ -953,10 +963,6 @@ form {
     padding: 10% 51% 0% 10%;
   }
 
-  .aboutme1 > * {
-    padding: 0%;
-  }
-
   .resume {
     padding-left: 12px;
   }
@@ -974,13 +980,6 @@ form {
     margin: 0% 10%;
     justify-content: space-between;
     align-content: flex-start;
-  }
-
-  .technologies > * {
-    margin: 0%;
-    margin-top: 10%;
-    padding-right: 10%;
-    text-align: left;
   }
 
   .contactme {
