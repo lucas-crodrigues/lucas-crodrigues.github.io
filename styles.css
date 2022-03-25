@@ -253,14 +253,18 @@ li {
   width: 100%;
 }
 
-.project1, .project2, .project3 {
+.project1,
+.project2,
+.project3 {
   background-image: url(Art/project-image.png);
   background-size: 100% 100%;
   padding: 0%;
   margin-top: 24px;
 }
 
-.project1 > *, .project2 > *, .project3 > * {
+.project1 > *,
+.project2 > *,
+.project3 > * {
   padding-right: 16px;
   padding-left: 16px;
   color: #fff;
