@@ -22,7 +22,8 @@
 }
 
 .logo {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -81,7 +82,7 @@
 }
 
 .headlineh {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -95,7 +96,7 @@
 
 .headlineh2 {
   color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -105,7 +106,7 @@
 
 .headlinep {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -146,7 +147,7 @@
 }
 
 .worksh {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -174,7 +175,7 @@
 }
 
 .multiposth {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -184,7 +185,7 @@
 }
 
 .multipostp {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -209,7 +210,7 @@
 }
 
 .icontext {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -229,7 +230,7 @@
 
 .seeprojecth {
   margin: 0%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -260,6 +261,7 @@ li {
   background-size: 100% 100%;
   padding: 0%;
   margin-top: 24px;
+  transition: all 0.5s ease-out;
 }
 
 .project1 > *,
@@ -283,7 +285,7 @@ li {
 }
 
 .project1h {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -293,7 +295,7 @@ li {
 }
 
 .project1p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -323,7 +325,7 @@ li {
 }
 
 .icontextp {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -344,7 +346,7 @@ li {
 }
 
 .seeprojecttext {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -366,7 +368,7 @@ li {
 }
 
 .aboutmeh {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -385,7 +387,7 @@ li {
   height: 148px;
   left: 24px;
   top: 223px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -405,7 +407,7 @@ li {
   flex-flow: row wrap;
   align-items: center;
   align-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -448,7 +450,7 @@ li {
 }
 
 .languageh {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -465,7 +467,7 @@ li {
 }
 
 .languagetext > * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -492,7 +494,7 @@ li {
 }
 
 .frameworksh {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -513,7 +515,7 @@ li {
   height: 24px;
   left: 0%;
   top: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -541,7 +543,7 @@ li {
 }
 
 .skillsh {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -562,7 +564,7 @@ li {
   height: 24px;
   left: 0%;
   top: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -586,7 +588,7 @@ li {
   height: 100%;
   left: 0%;
   top: 0%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -672,14 +674,14 @@ button:active {
   padding: 0%;
 }
 
-input[type=text],
-[type=email] {
+input[type="text"],
+[type="email"] {
   width: 85%;
   padding: 12px 20px;
   border: none;
   border-bottom: 1px solid #d8d8d7;
   background-color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -693,7 +695,7 @@ textarea {
   padding: 12px;
   border: 1px #d8d8d7;
   background-color: #fbf8f7;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -702,13 +704,13 @@ textarea {
   margin-top: 24px;
 }
 
-button[type=submit] {
+button[type="submit"] {
   width: 131px;
   height: 48px;
   left: 98px;
   top: calc(50% - 48px / 2 + 141px);
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -718,13 +720,13 @@ button[type=submit] {
   margin-top: 18px;
 }
 
-button[type=submit]:hover {
+button[type="submit"]:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
 }
 
-button[type=submit]:active {
+button[type="submit"]:active {
   background-color: #e05304;
   color: #f4f1f0;
 }
@@ -761,7 +763,7 @@ form {
 
   .menu-option {
     display: inline;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -775,7 +777,7 @@ form {
   }
 
   .headline {
-    grid-area: 2 / 1 / 3  / 4;
+    grid-area: 2 / 1 / 3 / 4;
     height: calc(100vh - 72px);
     background-image: url(Art/Illustration-header-desktop.png);
     background-position: 100% calc(0% - 65px);
@@ -805,7 +807,7 @@ form {
 
   .headlineh2 {
     grid-row: 2 / 3;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -813,7 +815,7 @@ form {
 
   .headlinep {
     grid-row: 3 / 4;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -910,6 +912,7 @@ form {
   .project1:hover {
     background-image: url(Art/project-image-selected.png);
     background-size: 100% 100%;
+    transform: scale(1.02);
   }
 
   .project1:hover > * {
@@ -925,6 +928,10 @@ form {
     background-size: 100% 100%;
   }
 
+  .project2:hover{
+    transform: scale(1.02);
+  }
+
   .project2:hover > * {
     display: none;
   }
@@ -936,6 +943,10 @@ form {
   .project3 {
     background-image: url(Art/project3-image.png);
     background-size: 100% 100%;
+  }
+
+  .project3:hover{
+    transform: scale(1.02);
   }
 
   .project3:hover > * {
