@@ -253,14 +253,14 @@ li {
   width: 100%;
 }
 
-.project1 {
+.project1, .project2, .project3 {
   background-image: url(Art/project-image.png);
   background-size: 100% 100%;
   padding: 0%;
   margin-top: 24px;
 }
 
-.project1 > * {
+.project1 > *, .project2 > *, .project3 > * {
   padding-right: 16px;
   padding-left: 16px;
   color: #fff;
@@ -414,6 +414,7 @@ li {
   background-image: url(Art/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+  padding-bottom: 200px;
 }
 
 .divline2 {
@@ -647,6 +648,7 @@ button {
   background-color: #f55800;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 button:hover {
@@ -892,17 +894,16 @@ form {
  display: none;
 }
 
-.projectssection :hover {
+.project1:hover {
   background-image: url(Art/project-image-selected.png);
   background-size: 100% 100%;
-  
 }
 
-.projectssection :hover > * {
-  visibility: hidden;
+.project1:hover > * {
+  display: none;
 }
 
-.projectssection :hover > * .seeproject1button {
+.project1:hover .seeproject1button {
   display: block;
 }
 
@@ -911,9 +912,25 @@ form {
   background-size: 100% 100%;
 }
 
+.project2:hover > * {
+  display: none;
+}
+
+.project2:hover .seeproject1button {
+  display: block;
+}
+
 .project3 {
   background-image: url(Art/project3-image.png);
   background-size: 100% 100%;
+}
+
+.project3:hover > * {
+  display: none;
+}
+
+.project3:hover .seeproject1button {
+  display: block;
 }
 
 .aboutme {
