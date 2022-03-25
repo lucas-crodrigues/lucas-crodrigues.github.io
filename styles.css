@@ -753,6 +753,24 @@ form {
     padding-right: 10%;
   }
 
+  @keyframes logo-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    50% {
+      font-size: 200%;
+      color: #e05304;
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logo {
+    animation-duration: 2s;
+    animation-name: logo-animation;
+  }
+
   .menuicon {
     display: none;
   }
