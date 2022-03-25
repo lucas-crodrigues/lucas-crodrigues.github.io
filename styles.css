@@ -879,7 +879,31 @@ form {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 37px 24px;
-  align-items: end;
+  margin-top: 24px;
+}
+
+.projectssection > * {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+
+.projectssection > * .seeproject1button {
+ display: none;
+}
+
+.projectssection :hover {
+  background-image: url(Art/project-image-selected.png);
+  background-size: 100% 100%;
+  
+}
+
+.projectssection :hover > * {
+  visibility: hidden;
+}
+
+.projectssection :hover > * .seeproject1button {
+  display: block;
 }
 
 .project2 {
@@ -929,13 +953,15 @@ form {
   display: flex;
   flex-flow: row wrap;
   margin: 0% 10%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: flex-start;
 }
 
 .technologies > * {
   margin: 0%;
   margin-top: 10%;
+  padding-right: 10%;
+  text-align: left;
 }
 
 .contactme {
