@@ -759,7 +759,6 @@ form {
     width: 50%;
   }
 
-
   .menu-option {
     display: inline;
     font-family: 'Inter', sans-serif;
@@ -849,11 +848,10 @@ form {
   .divline {
     grid-area: 1 / 2 / 2 / 3;
     width: calc(100% - 20px);
-    height: 0px;
+    height: 0%;
     border: 1px solid #212121;
     margin-top: 146px;
   }
-    
 
   .stories {
     grid-area: 2 / 2 / 3 / 3;
@@ -895,7 +893,7 @@ form {
   }
 
   .projectssection > * .seeproject1button {
-  display: none;
+    display: none;
   }
 
   .project1:hover {
@@ -1024,5 +1022,4 @@ form {
   .divline4 {
     display: none;
   }
-
 }
