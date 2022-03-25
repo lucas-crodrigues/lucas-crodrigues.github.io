@@ -22,8 +22,7 @@
 }
 
 .logo {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -757,10 +756,12 @@ form {
     from {
       transform: rotate(0deg);
     }
+
     50% {
       font-size: 200%;
       color: #e05304;
     }
+
     to {
       transform: rotate(360deg);
     }
@@ -946,7 +947,7 @@ form {
     background-size: 100% 100%;
   }
 
-  .project2:hover{
+  .project2:hover {
     transform: scale(1.02);
   }
 
@@ -963,7 +964,7 @@ form {
     background-size: 100% 100%;
   }
 
-  .project3:hover{
+  .project3:hover {
     transform: scale(1.02);
   }
 
