@@ -653,6 +653,7 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
+  transition: all 0.5s ease-out;
 }
 
 button:hover {
