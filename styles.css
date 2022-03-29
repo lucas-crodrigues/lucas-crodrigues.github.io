@@ -927,17 +927,20 @@ form {
     text-align: left;
   }
 
-  .project1:hover {
+  .project1:hover,
+  .project1:focus {
     background-image: url(Art/project-image-selected.png);
     background-size: 100% 100%;
     transform: scale(1.02);
   }
 
-  .project1:hover > * {
+  .project1:hover > *,
+  .project1:focus > * {
     display: none;
   }
 
-  .project1:hover .seeproject1button {
+  .project1:hover .seeproject1button,
+  .project1:focus .seeproject1button{
     display: block;
   }
 
@@ -946,15 +949,18 @@ form {
     background-size: 100% 100%;
   }
 
-  .project2:hover {
+  .project2:hover,
+  .project2:focus {
     transform: scale(1.02);
   }
 
-  .project2:hover > * {
+  .project2:hover > *,
+  .project2:focus > * {
     display: none;
   }
 
-  .project2:hover .seeproject1button {
+  .project2:hover .seeproject1button,
+  .project2:focus .seeproject1button {
     display: block;
   }
 
@@ -963,15 +969,18 @@ form {
     background-size: 100% 100%;
   }
 
-  .project3:hover {
+  .project3:hover,
+  .project3:focus {
     transform: scale(1.02);
   }
 
-  .project3:hover > * {
+  .project3:hover > *,
+  .project3:focus > * {
     display: none;
   }
 
-  .project3:hover .seeproject1button {
+  .project3:hover .seeproject1button,
+  .project3:focus .seeproject1button {
     display: block;
   }
 
