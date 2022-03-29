@@ -63,7 +63,7 @@
 
 .headline {
   display: flex;
-  background-image: url(Art/illustration-header-mobile.png);
+  background-image: url(Art/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   flex-wrap: wrap;
@@ -415,7 +415,7 @@ li {
 }
 
 .aboutme1 {
-  background-image: url(Art/illustration-about-me-mobile.png);
+  background-image: url(Art/illustration-about-me-mobile.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-bottom: 200px;
