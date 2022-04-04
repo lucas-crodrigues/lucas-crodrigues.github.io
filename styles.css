@@ -142,10 +142,8 @@ a {
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
-  margin: 8px;
   align-self: center;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 30px auto 8px auto;
 }
 
 .headline {
