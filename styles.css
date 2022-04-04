@@ -10,7 +10,22 @@
   flex: 1 1 auto;
 }
 
+button {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
 .toolbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
   height: 48px;
   background-color: #3c3a39;
   display: flex;
@@ -59,6 +74,76 @@
 .menu-option,
 .mail-sign {
   display: none;
+}
+
+.dropdown-menu {
+  background-color: #3c3a39;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 7%;
+  right: 0;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.dropdown-option {
+  color: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 0 6% 6% 6%;
+  text-decoration: none;
+  padding-left: 4%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown-option a {
+  color: #fff5e1;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: end;
+}
+
+.mobile-menu button {
+  width: 8px;
+  height: 22px;
+  background: transparent;
+  border: none;
+  color: #67798e;
+  margin-right: 38px;
+  margin-top: 26px;
+  font-size: 25px;
+}
+
+.dropdown-bottom {
+  background-color: #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7%;
+}
+
+.dropdown-divline {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  align-self: center;
+  margin: 30px auto 8px auto;
 }
 
 .headline {
@@ -643,17 +728,6 @@ li {
   align-self: center;
   margin-right: auto;
   margin-left: auto;
-}
-
-button {
-  width: 100%;
-  height: 100%;
-  margin: 0%;
-  background-color: #f55800;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  transition: all 0.5s ease-out;
 }
 
 button:hover {
