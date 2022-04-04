@@ -9,11 +9,11 @@
 </head>
 <body class="content">
    <header class="toolbar">
-        <a class="logo">LCR</a>
+        <a class="logo" href="#headline">LCR</a>
         <div class="spaceBetween"></div>
-        <a  class="menu-option">Portfolio</a>
-        <a class="menu-option">About</a>
-        <a class="menu-option">Contact</a>
+        <a  class="menu-option" href="#works">Portfolio</a>
+        <a class="menu-option" href="#aboutme">About</a>
+        <a class="menu-option" href="#contactme">Contact</a>
         <img class="mail-sign" src="Art/Icon-Mail.png" alt="Mail sign">
             <a></a>
         <nav class="menuicon">
@@ -25,15 +25,15 @@
             <div  class="mobile-menu">
                 <button class="close">&times;</button>
             </div>
-            <ul >
+            <ul class="mobile-menu-options">
                 <li class="dropdown-option"><a href="#works">Portfolio</a></li>
-                <li class="dropdown-option"><a href="#">About</a></li>
-                <li class="dropdown-option"><a href="#">Contact</a></li>
+                <li class="dropdown-option"><a href="#aboutme">About</a></li>
+                <li class="dropdown-option"><a href="#contactme">Contact</a></li>
             </ul>
             <div class="dropdown-bottom"><div class="dropdown-divline"></div></div>
         </div>
     </header>
-    <section class="headline">
+    <section class="headline" id="headline">
         <h1 class="headlineh">Hey There.<br>I'm Lucas</h1>
         <h3 class="headlineh2">I am a Software Developer</h3>
         <p class="headlinep">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -66,7 +66,7 @@
             </li>
         </ul>
     </section>
-    <section class="works">
+    <section class="works" id="works">
         <div class="works-header">
             <h2 class="worksh">My Recent Works</h2>
             <div class="divline"></div>
@@ -244,7 +244,7 @@
             </div>
         </div>
     </section>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
         <div class="aboutme1">
             <h3 class="aboutmeh">About me</h3>
             <p class="aboutmep">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! 
@@ -296,7 +296,7 @@
             </div>
         </div>
     </section>
-    <section class="contactme">
+    <section class="contactme" id="contactme">
         <h3 class="contactmeh">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
           <form class="contactme-form" action="https://formspree.io/f/mdobdrla" method="post">
              <input type="text" id="userfullname" name="user_name" placeholder="Full name" maxlength="30" required>
