@@ -69,7 +69,11 @@
   bottom: 7%;
   right: 0;
   margin: 0;
-  display: none;
+
+}
+
+.hide{
+  display:none;
 }
 
 .dropdown-option {
@@ -91,6 +95,20 @@ a {
 
 .dropdown-option a {
   color: #fff5e1;
+}
+.mobile-menu{
+  display:flex;
+  justify-content:end;
+}
+.mobile-menu button {
+  width: 8px;
+  height: 22px;
+  background: transparent;
+  border: none;
+  color: #67798E;
+  margin-right: 38px;
+  margin-top: 26px;
+  font-size: 25px;
 }
 
 .dropdown-bottom {
