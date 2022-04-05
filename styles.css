@@ -60,6 +60,8 @@ button {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  cursor: pointer;
+  padding: 8px;
 }
 
 .menubar {
@@ -113,18 +115,24 @@ a {
 
 .mobile-menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: end;
 }
 
 .mobile-menu button {
-  width: 8px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   background: transparent;
   border: none;
   color: #67798e;
   margin-right: 38px;
   margin-top: 26px;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.mobile-menu button:hover {
+  background: transparent;
+  border: none;
 }
 
 .dropdown-bottom {
