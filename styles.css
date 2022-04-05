@@ -509,6 +509,30 @@ li {
   margin: 24px 16px;
   width: calc(100% - 32px);
 }
+.popup-content-p{
+  color: #344563;
+  text-align: start;
+
+}
+.popup-bottom{
+  display: flex;
+  justify-content: space-evenly;
+}
+.popup-live{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  width: 134px;
+  height: 48px;
+}
+.popup-source{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  width: 159px;
+  height: 48px;
+}
+
 
 .aboutme {
   display: grid;
