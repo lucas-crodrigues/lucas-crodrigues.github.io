@@ -16,9 +16,21 @@ closeOption.addEventListener('click', () => {
 });
 
 const projects = {
+  stories: {
+    id: 0, 
+    projectTitle: 'Multi Post Stories', 
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
+    "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
+    "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
+    "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    image: 'Art/popup-image.png',
+    imageAlt: 'Popup project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg']
+  },
 project1: {
   id: 1, 
-  projectTitle: '1Multi Post Stories', 
+  projectTitle: 'Profesional Art Printing Data', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -30,7 +42,7 @@ project1: {
 },
 project2: {
   id: 2, 
-  projectTitle: '2Multi Post Stories', 
+  projectTitle: 'Data Dashboard Healthcare', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -42,7 +54,7 @@ project2: {
 },
 project3: {
   id: 3, 
-  projectTitle: '3Multi Post Stories', 
+  projectTitle: 'Website Protfolio', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -54,7 +66,7 @@ project3: {
 },
 project4: {
   id: 4, 
-  projectTitle: '4Multi Post Stories', 
+  projectTitle: 'Profesional Art Printing Data', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -66,7 +78,7 @@ project4: {
 },
 project5: {
   id: 5, 
-  projectTitle: '5Multi Post Stories', 
+  projectTitle: 'Data Dashboard Healthcare', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -78,7 +90,7 @@ project5: {
 },
 project6: {
   id: 6, 
-  projectTitle: '6Multi Post Stories', 
+  projectTitle: 'Website Protfolio', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -143,9 +155,9 @@ function displayProject1(event) {
   <div class="popup-content">
     <img id="popup-content-img" src="${selectedProjects.image}" alt="${selectedProjects.imageAlt}">
     <p class="popup-content-p" id="popup-content-p">${selectedProjects.description}</p>
-  </div>
-  <div class="popup-bottom">
-    <button class="popup-live" id="popup-live">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></button>
-    <button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button>
+    <div class="popup-bottom">
+      <button class="popup-live" id="popup-live">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></button>
+      <button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button>
+    </div>
   </div>`;
 };
