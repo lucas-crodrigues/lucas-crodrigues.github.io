@@ -95,13 +95,42 @@ const tags = {
   tagRubyOnRails: 'Ruby on rails'
 }
 
-document.getElementById('popupHeader').innerHTML = projects.project1.projectTitle;
-document.getElementById('popup1tag1').innerHTML = tags.tagHtml;
-document.getElementById('popup1tag2').innerHTML = tags.tagBootstrap;
-document.getElementById('popup1tag3').innerHTML = tags.tagRubyOnRails;
-document.getElementById('popup-content-img').src = projects.project1.image;
-document.getElementById('popup-content-img').alt = projects.project1.imageAlt;
-document.getElementById('popup-content-p').innerHTML = projects.project1.description;
-document.getElementById('popup-live').innerHTML = projects.project1.linktolive[0];
-document.getElementById('linktolive').src = projects.project1.linktolive[1];
+const popupProjectDetails = document.querySelectorAll('.seeProjectButton');
+const popupProjectMobile = document.querySelector('.project-popup-mobile');
+const bgBlur = document.querySelector('.works');
+const lockScroll = document.querySelector('.content');
 
+popupProjectDetails.forEach((button) => {button.addEventListener('click', displayProject1)});
+
+function displayProject1() {
+  popupProjectMobile.classList.remove('popup');
+  bgBlur.classList.add('blur');
+  lockScroll.classList.add('lockScroll');
+  popupProjectMobile.innerHTML = `
+  <div class="popup-top" id="popup-top">
+  <h4 class="popup-header" id="popupHeader">${projects.project1.projectTitle}</h4>
+  <button class="close closePopup" onclick="bgBlur.classList.remove('blur'); popupProjectMobile.classList.add('popup'); lockScroll.classList.remove('lockScroll');">&times;</button>
+  </div>
+  <ul class="project1tags">
+    <li class="htmlbuttp">
+        <p class="icontextp" id="popup1tag1">${tags.tagHtml}</p>
+        <a></a>
+    </li>
+    <li class="bootstrapbuttp">
+        <p class="icontextp" id="popup1tag2">${tags.tagBootstrap}</p>
+        <a></a>
+    </li>
+    <li class="rubybuttp">
+        <p class="icontextp" id="popup1tag3">${tags.tagRubyOnRails}</p>
+        <a></a>
+    </li>
+  </ul>
+  <div class="popup-content">
+    <img id="popup-content-img" src="${projects.project1.image}" alt="${projects.project1.imageAlt}">
+    <p class="popup-content-p" id="popup-content-p">${projects.project1.description}</p>
+  </div>
+  <div class="popup-bottom">
+    <button class="popup-live" id="popup-live">${projects.project1.linktolive[0]}<img src="${projects.project1.linktolive[1]}"></button>
+    <button class="popup-source">${projects.project1.linktosource[0]} <img src="${projects.project1.linktosource[1]}"></button>
+  </div>`;
+};
