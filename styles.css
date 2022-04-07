@@ -447,8 +447,14 @@ li {
   padding-left: 0%;
 }
 
-.popup {
-  /* display: none; */
+.blur {
+  filter: blur(6px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.lockScroll {
+  overflow: hidden;
 }
 
 .project-popup-mobile {
@@ -466,6 +472,11 @@ li {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
+  z-index: 10;
+}
+
+.popup {
+  display: none;
 }
 
 .popup-top {
@@ -513,13 +524,11 @@ li {
 .popup-content {
   display: flex;
   flex-flow: column nowrap;
-  /* height: 67%; */
 }
 
 .popup-content img {
   margin: 24px 16px;
   width: calc(100% - 32px);
-  /* height: 50%; */
 }
 
 .popup-content-p {
