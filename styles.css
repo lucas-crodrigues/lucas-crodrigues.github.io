@@ -470,7 +470,7 @@ li {
   padding: 0;
   backdrop-filter: blur(6px);
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
   z-index: 10;
 }
@@ -481,7 +481,7 @@ li {
 
 .popup-top {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 
@@ -1108,6 +1108,66 @@ form {
 
   .projectssection > * .seeproject1button {
     display: none;
+  }
+
+  .project-popup-mobile {
+    margin: 10% 12%;
+    width: 76%;
+    height: 60%;
+  }
+
+  .popup-content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 70% 18%;
+  }
+  
+  .popup-content img {
+    grid-area: 1 / 1 / 3 / 2;
+    height: calc(100% - 48px);
+    width: calc(100% - 32px);
+    margin: 24px 16px;
+  }
+  
+  .popup-content-p {
+    color: #344563;
+    text-align: start;
+    margin: 24px 16px 16px 16px;
+    display: block;
+  }
+
+  .popup-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+  
+  .popup-live {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .popup-live img {
+    margin: 0%;
+    height: 50%;
+  }
+  
+  .popup-source {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 80%;
   }
 
   .aboutme1 > * {
