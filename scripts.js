@@ -18,7 +18,7 @@ closeOption.addEventListener('click', () => {
 const projects = {
 project1: {
   id: 1, 
-  projectTitle: 'Multi Post Stories', 
+  projectTitle: '1Multi Post Stories', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -30,7 +30,7 @@ project1: {
 },
 project2: {
   id: 2, 
-  projectTitle: 'Multi Post Stories', 
+  projectTitle: '2Multi Post Stories', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -42,7 +42,7 @@ project2: {
 },
 project3: {
   id: 3, 
-  projectTitle: 'Multi Post Stories', 
+  projectTitle: '3Multi Post Stories', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -54,7 +54,7 @@ project3: {
 },
 project4: {
   id: 4, 
-  projectTitle: 'Multi Post Stories', 
+  projectTitle: '4Multi Post Stories', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -66,7 +66,7 @@ project4: {
 },
 project5: {
   id: 5, 
-  projectTitle: 'Multi Post Stories', 
+  projectTitle: '5Multi Post Stories', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -78,7 +78,7 @@ project5: {
 },
 project6: {
   id: 6, 
-  projectTitle: 'Multi Post Stories', 
+  projectTitle: '6Multi Post Stories', 
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
   "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
   "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
@@ -100,15 +100,30 @@ const popupProjectMobile = document.querySelector('.project-popup-mobile');
 const bgBlur = document.querySelector('.works');
 const lockScroll = document.querySelector('.content');
 
-popupProjectDetails.forEach((button) => {button.addEventListener('click', displayProject1)});
+popupProjectDetails.forEach((button) => {button.addEventListener('click', (event)=>{displayProject1(event)})});
 
-function displayProject1() {
+
+
+
+function displayProject1(event) {
+  console.log(event);
   popupProjectMobile.classList.remove('popup');
   bgBlur.classList.add('blur');
   lockScroll.classList.add('lockScroll');
+  
+  let selectedProjects ;
+
+  for(let project in projects){
+    if(event.target.id == projects[project].id){
+      selectedProjects = projects[project];
+    }
+
+  }
+  console.log(selectedProjects)
+
   popupProjectMobile.innerHTML = `
   <div class="popup-top" id="popup-top">
-  <h4 class="popup-header" id="popupHeader">${projects.project1.projectTitle}</h4>
+  <h4 class="popup-header" id="popupHeader">${selectedProjects.projectTitle}</h4>
   <button class="close closePopup" onclick="bgBlur.classList.remove('blur'); popupProjectMobile.classList.add('popup'); lockScroll.classList.remove('lockScroll');">&times;</button>
   </div>
   <ul class="project1tags">
@@ -126,11 +141,11 @@ function displayProject1() {
     </li>
   </ul>
   <div class="popup-content">
-    <img id="popup-content-img" src="${projects.project1.image}" alt="${projects.project1.imageAlt}">
-    <p class="popup-content-p" id="popup-content-p">${projects.project1.description}</p>
+    <img id="popup-content-img" src="${selectedProjects.image}" alt="${selectedProjects.imageAlt}">
+    <p class="popup-content-p" id="popup-content-p">${selectedProjects.description}</p>
   </div>
   <div class="popup-bottom">
-    <button class="popup-live" id="popup-live">${projects.project1.linktolive[0]}<img src="${projects.project1.linktolive[1]}"></button>
-    <button class="popup-source">${projects.project1.linktosource[0]} <img src="${projects.project1.linktosource[1]}"></button>
+    <button class="popup-live" id="popup-live">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></button>
+    <button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button>
   </div>`;
 };
