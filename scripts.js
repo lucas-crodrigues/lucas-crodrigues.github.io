@@ -156,8 +156,8 @@ function displayProject1(event) {
     <img id="popup-content-img" src="${selectedProjects.image}" alt="${selectedProjects.imageAlt}">
     <p class="popup-content-p" id="popup-content-p">${selectedProjects.description}</p>
     <div class="popup-bottom">
-      <button class="popup-live" id="popup-live"><a href="#">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></a></button>
-      <button class="popup-source"><a href="#">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></a></button>
+      <button class="popup-live" id="popup-live">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></button>
+      <button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button>
     </div>
   </div>`;
 };
