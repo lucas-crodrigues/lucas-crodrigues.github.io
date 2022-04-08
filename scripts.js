@@ -17,121 +17,93 @@ closeOption.addEventListener('click', () => {
 
 const projects = {
   stories: {
-    id: 0, 
-    projectTitle: 'Multi Post Stories', 
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-    "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-    "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-    "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    id: 0,
+    projectTitle: 'Multi Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'Art/popup-image.png',
     imageAlt: 'Popup project image',
     linktolive: ['See Live', 'Art/Icon-Live.svg'],
-    linktosource: ['See Source', 'Art/Icon-Source.svg']
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
   },
-project1: {
-  id: 1, 
-  projectTitle: 'Profesional Art Printing Data', 
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-  "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-  "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-  "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'Art/popup-image.png',
-  imageAlt: 'Popup project image',
-  linktolive: ['See Live', 'Art/Icon-Live.svg'],
-  linktosource: ['See Source', 'Art/Icon-Source.svg']
-},
-project2: {
-  id: 2, 
-  projectTitle: 'Data Dashboard Healthcare', 
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-  "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-  "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-  "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'Art/popup-image.png',
-  imageAlt: 'Popup project image',
-  linktolive: ['See Live', 'Art/Icon-Live.svg'],
-  linktosource: ['See Source', 'Art/Icon-Source.svg']
-},
-project3: {
-  id: 3, 
-  projectTitle: 'Website Protfolio', 
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-  "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-  "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-  "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'Art/popup-image.png',
-  imageAlt: 'Popup project image',
-  linktolive: ['See Live', 'Art/Icon-Live.svg'],
-  linktosource: ['See Source', 'Art/Icon-Source.svg']
-},
-project4: {
-  id: 4, 
-  projectTitle: 'Profesional Art Printing Data', 
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-  "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-  "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-  "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'Art/popup-image.png',
-  linktolive: ['See Live', 'Art/Icon-Live.svg'],
-  imageAlt: 'Popup project image',
-  linktosource: ['See Source', 'Art/Icon-Source.svg']
-},
-project5: {
-  id: 5, 
-  projectTitle: 'Data Dashboard Healthcare', 
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-  "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-  "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-  "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'Art/popup-image.png',
-  linktolive: ['See Live', 'Art/Icon-Live.svg'],
-  imageAlt: 'Popup project image',
-  linktosource: ['See Source', 'Art/Icon-Source.svg']
-},
-project6: {
-  id: 6, 
-  projectTitle: 'Website Protfolio', 
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
-  "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, "+
-  "when an unknown printer took a galley of type and scrambled it to make a type specimen book. "+
-  "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'Art/popup-image.png',
-  imageAlt: 'Popup project image',
-  linktolive: ['See Live', 'Art/Icon-Live.svg'],
-  linktosource: ['See Source', 'Art/Icon-Source.svg']
-}};
+  project1: {
+    id: 1,
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Art/popup-image.png',
+    imageAlt: 'Popup project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+  },
+  project2: {
+    id: 2,
+    projectTitle: 'Data Dashboard Healthcare',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Art/popup-image.png',
+    imageAlt: 'Popup project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+  },
+  project3: {
+    id: 3,
+    projectTitle: 'Website Protfolio',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Art/popup-image.png',
+    imageAlt: 'Popup project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+  },
+  project4: {
+    id: 4,
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Art/popup-image.png',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    imageAlt: 'Popup project image',
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+  },
+  project5: {
+    id: 5,
+    projectTitle: 'Data Dashboard Healthcare',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Art/popup-image.png',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    imageAlt: 'Popup project image',
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+  },
+  project6: {
+    id: 6,
+    projectTitle: 'Website Protfolio',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Art/popup-image.png',
+    imageAlt: 'Popup project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+  },
+};
 
 const tags = {
-  tagHtml: 'html' ,
-  tagBootstrap: 'Bootstrap', 
-  tagRubyOnRails: 'Ruby on rails'
-}
+  tagHtml: 'html',
+  tagBootstrap: 'Bootstrap',
+  tagRubyOnRails: 'Ruby on rails',
+};
 
 const popupProjectDetails = document.querySelectorAll('.seeProjectButton');
 const popupProjectMobile = document.querySelector('.project-popup-mobile');
 const bgBlur = document.querySelector('.works');
 const lockScroll = document.querySelector('.content');
 
-popupProjectDetails.forEach((button) => {button.addEventListener('click', (event)=>{displayProject1(event)})});
-
-
-
-
 function displayProject1(event) {
-  console.log(event);
   popupProjectMobile.classList.remove('popup');
   bgBlur.classList.add('blur');
   lockScroll.classList.add('lockScroll');
-  
-  let selectedProjects ;
 
-  for(let project in projects){
-    if(event.target.id == projects[project].id){
+  let selectedProjects;
+
+  Object.keys(projects).forEach((project) => {
+    if (event.target.id === projects[project].id.toString()) {
       selectedProjects = projects[project];
     }
-
-  }
-  console.log(selectedProjects)
+  });
 
   popupProjectMobile.innerHTML = `
   <div class="popup-top" id="popup-top">
@@ -160,4 +132,6 @@ function displayProject1(event) {
       <button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button>
     </div>
   </div>`;
-};
+}
+
+popupProjectDetails.forEach((button) => { button.addEventListener('click', (event) => { displayProject1(event); }); });
