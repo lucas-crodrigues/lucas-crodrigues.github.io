@@ -1150,7 +1150,7 @@ form {
     height: 60%;
     display: grid;
     grid-template-columns: 60% 30% 10%;
-    grid-template-rows: 10% 10% 60% 20%;
+    grid-template-rows: 12% 8% 60% 20%;
   }
 
   .popup {
