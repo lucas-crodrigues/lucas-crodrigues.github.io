@@ -1,7 +1,8 @@
 # Portfolio Microverse
  Portfolio project started at the first week of Microverse
 
-Built With
+## Built With
+
 HTML and CSS
 Visual Studio Code
 
@@ -16,6 +17,7 @@ To get a local copy up and running follow these simple example steps.
   1- Download files
   2- Run index.html in browser
 
+## Authors
 
 👤 **Lucas Costa Rodrigues**
 
@@ -41,10 +43,26 @@ Twitter: @andgarzonmal
 
 LinkedIn: https://www.linkedin.com/in/andres-garzon-maldonado-951a2a180/
 
-Show your support
+👤 **Gedewon Haile**
+
+GitHub: @Gedewon
+
+Twitter: @gedi_haile
+
+LinkedIn: https://www.linkedin.com/in/gedewon/
+
+👤 **Francisco Borja**
+
+GitHub: [@franclobo](https://github.com/franclobo)
+
+Twitter: [@pancho2788](https://twitter.com/Pancho2788)
+
+LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
+
+## Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 Microverse team
-📝 License
+## 📝 License
 This project is MIT licensed.
