@@ -1143,11 +1143,11 @@ form {
   }
 
   .project-popup-mobile {
-    margin: 10% 12%;
+    margin: calc(100%-631px) calc(100%-1156px);
     width: 76%;
     height: 60%;
-    max-width: 90%;
-    max-height: 80%;
+    max-width: 1156px;
+    max-height: 631px;
     display: grid;
     grid-template-columns: 60% 30% 10%;
     grid-template-rows: 12% 8% 60% 20%;
