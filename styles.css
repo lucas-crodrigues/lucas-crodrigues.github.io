@@ -491,6 +491,7 @@ li {
   height: 95%;
   max-width: 400px;
   max-height: 690px;
+  min-height: 650px;
   padding: 0;
   backdrop-filter: blur(6px);
   display: flex;
@@ -1145,9 +1146,10 @@ form {
   .project-popup-mobile {
     margin: calc(100%-631px) calc(100%-1156px);
     width: 76%;
-    height: 60%;
+    height: 70%;
     max-width: 1156px;
     max-height: 631px;
+    min-height: 430px;
     display: grid;
     grid-template-columns: 60% 30% 10%;
     grid-template-rows: 12% 8% 60% 20%;
@@ -1188,6 +1190,7 @@ form {
     color: #344563;
     text-align: start;
     margin: 24px 16px 16px 16px;
+    overflow: hidden;
   }
 
   .popup-bottom {
