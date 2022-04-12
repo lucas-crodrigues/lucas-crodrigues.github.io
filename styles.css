@@ -1144,7 +1144,7 @@ form {
   }
 
   .project-popup-mobile {
-    margin: calc(100%-631px) calc(100%-1156px);
+    margin: calc(100% - 631px) calc(100% - 1156px);
     width: 76%;
     height: 70%;
     max-width: 1156px;
