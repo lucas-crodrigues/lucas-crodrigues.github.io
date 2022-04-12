@@ -96,6 +96,9 @@ function displayProject1(event) {
   popupProjectMobile.classList.remove('popup');
   bgBlur.classList.add('blur');
   lockScroll.classList.add('lockScroll');
+  document.querySelector('.toolbar').classList.add('blur');
+  document.querySelector('.headline').classList.add('blur');
+  document.querySelector('.aboutme').classList.add('blur');
 
   let selectedProjects;
 
@@ -107,8 +110,12 @@ function displayProject1(event) {
 
   popupProjectMobile.innerHTML = `
   <div class="popup-top" id="popup-top">
-  <h4 class="popup-header" id="popupHeader">${selectedProjects.projectTitle}</h4>
-  <button class="close closePopup" onclick="bgBlur.classList.remove('blur'); popupProjectMobile.classList.add('popup'); lockScroll.classList.remove('lockScroll');">&times;</button>
+    <h4 class="popup-header" id="popupHeader">${selectedProjects.projectTitle}</h4>
+    <button class="close closePopup" onclick="bgBlur.classList.remove('blur'); 
+      popupProjectMobile.classList.add('popup'); lockScroll.classList.remove('lockScroll'); 
+      document.querySelector('.toolbar').classList.remove('blur'); document.querySelector('.headline').classList.remove('blur'); 
+      document.querySelector('.aboutme').classList.remove('blur');">&times;
+    </button>
   </div>
   <ul class="project1tags">
     <li class="htmlbuttp">
