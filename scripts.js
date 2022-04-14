@@ -159,7 +159,7 @@ const formName = document.getElementById('userfullname');
 const formMessage = document.getElementById('userMessage');
 
 Array.from(form.elements).forEach((input) => input.addEventListener('input', () => {
-  const storeInformation = {Name: formName.value, Email: formEmail.value};
+  const storeInformation = { Name: formName.value, Email: formEmail.value };
   const storeString = JSON.stringify(storeInformation);
   localStorage.setItem('userInfo', storeString);
 }));
