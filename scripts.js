@@ -164,7 +164,15 @@ Array.from(form.elements).forEach((input) => input.addEventListener('input', () 
   localStorage.setItem('userInfo', storeString);
 }));
 
+Array.from(form.elements).forEach((textarea) => textarea.addEventListener('input', () => {
+  const storeMessage = { Message: formMessage.value };
+  const storeMessageString = JSON.stringify(storeMessage);
+  localStorage.setItem('userMessage', storeMessageString);
+}));
+
 const storedInfo = JSON.parse(localStorage.getItem('userInfo'));
+const storedMessage = JSON.parse(localStorage.getItem('userMessage'));
 
 formName.value = storedInfo.Name;
 formEmail.value = storedInfo.Email;
+formMessage.value = storedMessage.Message;
