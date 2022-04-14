@@ -961,6 +961,46 @@ form {
   align-items: center;
 }
 
+small {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  border: 1px solid;
+  margin: 10px 0;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+  background-image: url('https://i.imgur.com/GnyDvKN.png');
+  animation-duration: 30s;
+  animation-name: error-animation;
+  animation-fill-mode: forwards;
+}
+
+.hideError {
+  display: none;
+}
+
+@keyframes error-animation {
+  from {
+    opacity: 0.2;
+    transform: scale(0.1);
+  }
+
+  1% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
 @media (min-width: 786px) {
   .content {
     display: grid;
