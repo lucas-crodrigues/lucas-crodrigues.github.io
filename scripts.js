@@ -154,3 +154,17 @@ form.addEventListener('submit', (e) => {
     errorMessage.innerHTML = 'Email should be all lowercase';
   }
 });
+
+const formName = document.getElementById('userfullname');
+const formMessage = document.getElementById('userMessage');
+
+Array.from(form.elements).forEach((input) => input.addEventListener('input', () => {
+  const storeInformation = {Name: formName.value, Email: formEmail.value};
+  const storeString = JSON.stringify(storeInformation);
+  localStorage.setItem('userInfo', storeString);
+}));
+
+const storedInfo = JSON.parse(localStorage.getItem('userInfo'));
+
+formName.value = storedInfo.Name;
+formEmail.value = storedInfo.Email;
