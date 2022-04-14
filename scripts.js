@@ -148,11 +148,9 @@ const formEmail = document.getElementById('useremail');
 const errorMessage = document.getElementById('error-message');
 
 form.addEventListener('submit', (e) => {
-
   if (formEmail.value !== formEmail.value.toLowerCase()) {
     e.preventDefault();
     errorMessage.classList.remove('hideError');
     errorMessage.innerHTML = 'Email should be all lowercase';
   }
-
-})
+});
