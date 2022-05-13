@@ -371,8 +371,9 @@ li {
 .project1,
 .project2,
 .project3 {
-  background-image: url(Art/project-image.png);
-  background-size: 100% 100%;
+  background-image: url(Art/todolist_ss_shadow.PNG);
+  background-size: 150%;
+  background-position: center;
   padding: 0%;
   margin-top: 24px;
   transition: all 0.5s ease-out;
@@ -566,8 +567,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 38%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -585,8 +586,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 45%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1244,8 +1245,8 @@ small {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 38%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1263,8 +1264,8 @@ small {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 45%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1291,8 +1292,9 @@ small {
 
   .project1:hover,
   .project1:focus {
-    background-image: url(Art/project-image-selected.png);
-    background-size: 100% 100%;
+    background-image: url(Art/todolist_ss.PNG);
+    background-size: 150%;
+    background-position: center;
     transform: scale(1.02);
   }
 

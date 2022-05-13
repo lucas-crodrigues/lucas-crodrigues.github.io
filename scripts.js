@@ -27,12 +27,12 @@ const projects = {
   },
   project1: {
     id: 1,
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'Art/popup-image.png',
-    imageAlt: 'Popup project image',
-    linktolive: ['See Live', 'Art/Icon-Live.svg'],
-    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+    projectTitle: 'To-Do list',
+    description: 'A simple to-do list application, very lightweight, its simple UI makes it very easy to understand it, it comes with an input for you to write your tasks in and add it to the list, and functions to add task, remove task, check completed tasks, and a button to clear all tasks completed. The task list is stored in local storage.',
+    image: 'Art/todolist_ss.PNG',
+    imageAlt: 'To-Do list project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg', 'https://lucas-crodrigues.github.io/to-do-list/dist/'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg', 'https://github.com/lucas-crodrigues/to-do-list'],
   },
   project2: {
     id: 2,
@@ -82,8 +82,8 @@ const projects = {
 };
 
 const tags = {
-  tagHtml: 'html',
-  tagBootstrap: 'Bootstrap',
+  tagHtml: 'HTML/CSS',
+  tagBootstrap: 'JavaScript',
   tagRubyOnRails: 'Ruby on rails',
 };
 
@@ -126,7 +126,7 @@ function displayProject1(event) {
         <p class="icontextp" id="popup1tag2">${tags.tagBootstrap}</p>
         <a></a>
     </li>
-    <li class="rubybuttp">
+    <li class="rubybuttp hide">
         <p class="icontextp" id="popup1tag3">${tags.tagRubyOnRails}</p>
         <a></a>
     </li>
@@ -135,8 +135,8 @@ function displayProject1(event) {
     <img id="popup-content-img" src="${selectedProjects.image}" alt="${selectedProjects.imageAlt}">
     <p class="popup-content-p" id="popup-content-p">${selectedProjects.description}</p>
     <div class="popup-bottom">
-      <button class="popup-live" id="popup-live">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></button>
-      <button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button>
+      <a href="${selectedProjects.linktolive[2]}" target="_blank"><button class="popup-live" id="popup-live">${selectedProjects.linktolive[0]}<img src="${selectedProjects.linktolive[1]}"></button></a>
+      <a href="${selectedProjects.linktosource[2]}" target="_blank"><button class="popup-source">${selectedProjects.linktosource[0]} <img src="${selectedProjects.linktosource[1]}"></button></a>
     </div>
   </div>`;
 }
