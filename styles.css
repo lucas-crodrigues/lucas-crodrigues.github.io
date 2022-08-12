@@ -118,6 +118,7 @@ button:active {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .dropdown-option a {
