@@ -18,12 +18,12 @@ closeOption.addEventListener('click', () => {
 const projects = {
   stories: {
     id: 0,
-    projectTitle: 'Multi Post Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'Art/popup-image.png',
-    imageAlt: 'Popup project image',
-    linktolive: ['See Live', 'Art/Icon-Live.svg'],
-    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+    projectTitle: 'Bike Rentals',
+    description: 'It is a website for renting out bikes, the user can log in, and make reservations, the frontend of the website was made with React/Redux, and the backend API was done in Ruby on Rails with a PostgreSQL database.',
+    image: 'Art/Bike_Rentals.JPG',
+    imageAlt: 'Bike Rentals project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg', 'https://ducati-rentals.netlify.app/'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg', 'https://github.com/lucas-crodrigues/bike-rental-frontend'],
   },
   project1: {
     id: 1,
@@ -36,12 +36,12 @@ const projects = {
   },
   project2: {
     id: 2,
-    projectTitle: 'Data Dashboard Healthcare',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'Art/popup-image.png',
-    imageAlt: 'Popup project image',
-    linktolive: ['See Live', 'Art/Icon-Live.svg'],
-    linktosource: ['See Source', 'Art/Icon-Source.svg'],
+    projectTitle: 'Bike Rentals',
+    description: 'It is a website for renting out bikes, the user can log in, and make reservations, the frontend of the website was made with React/Redux, and the backend API was done in Ruby on Rails with a PostgreSQL database.',
+    image: 'Art/Bike_Rentals.JPG',
+    imageAlt: 'Bike Rentals project image',
+    linktolive: ['See Live', 'Art/Icon-Live.svg', 'https://ducati-rentals.netlify.app/'],
+    linktosource: ['See Source', 'Art/Icon-Source.svg', 'https://github.com/lucas-crodrigues/bike-rental-frontend'],
   },
   project3: {
     id: 3,
